@@ -1,0 +1,19 @@
+{
+  "name": "object-oriented-marathon-js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node ./src/main.js",
+    "test": "./node_modules/.bin/jest",
+    "test:debug": "node --inspect-brk ./node_modules/jest/bin/jest --runInBand"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "babel-jest": "^26.0.1",
+    "jest": "^26.0.1",
+    "ndb": "^1.0.44"
+  }
+}
